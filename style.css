@@ -90,10 +90,10 @@ a:hover {
     right: 0;
 }
 
-/* .texture-paper::before {
+.texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
-} */
+}
 
 .b-parallax {
     background-attachment: fixed;
@@ -703,31 +703,23 @@ p {
     max-width: 400px;
     margin: auto auto auto auto;
 }
-
-/* h2 {
-    font-size: 22px;
-    line-height: 1.4em;
-}
-
-h3 {
-    font-size: 15px;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #333333!important;
-} */
-
 h2 {
+    font-size: 22px;
+    line-height: 1.4em;
+}
+h2.bloc-title {
+    font-size: 22px;
+    line-height: 1.1em;
+    width: 62%;
+    margin: 10px auto;
+}
+
+h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
 }
-
-h3 {
-    font-size: 22px;
-    line-height: 1.4em;
-}
-
 
 .med-width-whitespace {
     max-width: 800px;
@@ -747,7 +739,20 @@ h4 {
     margin-bottom: 14px;
     margin-top: 24px;
 }
-
+blockquote{
+    border: none;
+    padding: 0 20px;
+    font-style: italic;
+    color: #333333;
+    font-size: 20px;
+    line-height: 1.1em;
+    width: 90%;
+    margin: 20px auto 0;
+}
+cite{
+    font-style: normal;
+    font-size: 20px;
+}
 .white {
     color: #FFFFFF!important;
 }
